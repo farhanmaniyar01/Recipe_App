@@ -1,0 +1,42 @@
+.App {
+  /* min-height: 100vh; */
+  background-image:linear-gradient(to top, #a8edea 0%, lightgray 100%);
+
+}
+
+.search-form{
+  min-height:14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  padding: 10px;
+  border: 2px solid black;
+
+
+}
+
+.search-button{
+  background: lightcoral;
+  border: 2px solid black;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+
+}
+.recipies{
+  display: flex;
+  /* justify-content: space-around ; */
+  flex-wrap: wrap;
+  font-family:serif;
+  font-size:13px;
+  text-align:start;
+  text-size-adjust: 40px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
